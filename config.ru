@@ -21,9 +21,9 @@ faye_server = Faye::RackAdapter.new(
 			:timeout => 25,
 			:engine => {
 				:type => 'redis',
-				:host => 'icefish.redistogo.com',
-				:port => '9229',
-				:password => '35113abe57ba883734f012e7db6d4e93',
+				:host => 'koi.redistogo.com',
+				:port => '9675',
+				:password => '24bf457eb53ed506ed4c28c38c2bd22b',
 				:database => 1
 			})
 faye_server.add_extension(ServerAuth.new)
